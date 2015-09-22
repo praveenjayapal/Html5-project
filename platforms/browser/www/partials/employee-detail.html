@@ -1,0 +1,24 @@
+<div class="topcoat-navigation-bar">
+    <div class="topcoat-navigation-bar__item left quarter">
+        <a class="topcoat-icon-button--quiet back-button" href="" ng-click="back()">
+            <span class="topcoat-icon topcoat-icon--back"></span>
+        </a>
+    </div>
+    <div class="topcoat-navigation-bar__item center half">
+        <h1 class="topcoat-navigation-bar__title">{{employee.businessName}}</h1>
+    </div>
+</div>
+
+<div class='details'>
+    <img ng-src="pics/{{employee.pic}}" class="employee-image">
+    <h1 id="name">{{employee.businessName}}</h1>
+    <h2>{{employee.address}}</h2>
+    <h2>{{employee.expectedAmount}}</h2>
+    <div class="topcoat-list__container scroller">
+        <ul class="topcoat-list list actions">
+            <li class="topcoat-list__item" ng-show="employee.officePhone"><a href="tel:{{employee.officePhone}}"><p>Call Office</p><p>{{employee.officePhone}}</p><div class="action-icon icon-call"/></a></li>
+            <li class="topcoat-list__item"><a onclick="sendJob()"> <strong class="center">Take job</strong> </p><div class="action-icon icon-manager"/></a></li>
+        </ul>
+    </div>
+</div>
+                
