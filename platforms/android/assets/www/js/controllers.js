@@ -26,6 +26,11 @@ angular.module('myApp.controllers', [])
         $scope.employees = Report.query({employeeId: $routeParams.employeeId});
     }])
 
-    .controller('Login', ['$scope', function ($scope) {
+    .controller('LoginCtrl', ['$scope', function ($scope) {
         $scope.employees = Report.query({employeeId: $routeParams.employeeId});
-    }]);
+    }])
+
+    .controller('HomeCtrl', ['$scope', function ($scope) {
+        $scope.employees = Report.query({employeeId: $routeParams.employeeId});
+    }])
+;
