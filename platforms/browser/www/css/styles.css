@@ -3,6 +3,12 @@
     position: absolute;
 }
 
+.login {
+    margin: auto;
+    width: 70%;
+    display: block;
+}
+
 .scroller {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
