@@ -11,6 +11,15 @@ currently being undertaken.
 
 ## Bugs and TODO's
 
-Will be updated with appropreate content momentarly. 
+TODO - Style pages
+  - Home page buttons 
+  - Login form
 
-
+TODO - Functionality
+  - Create login flow.
+  - Create restful client connection to get jobs.
+  - Create accept jobs flow.
+  - Create directions flow (gmaps etc).
+  - 
+  
+BUGS - Currently none at the moment woop woop :D
