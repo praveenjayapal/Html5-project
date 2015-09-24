@@ -9,6 +9,12 @@
     display: block;
 }
 
+.page_wrap {
+    display: block;
+    height: 100%;
+    margin-bottom: -4rem;
+}
+
 .scroller {
     overflow: auto;
     -webkit-overflow-scrolling: touch;
@@ -253,4 +259,12 @@ ul {
 .slide-right.ng-leave.ng-leave-active {
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
+}
+
+.page_footer {
+    box-sizing: border-box;
+    height: 4rem;
+    line-height: 4rem;
+    padding: 0 2rem;
+    border-top: 1px solid #666;
 }
