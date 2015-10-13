@@ -1,3 +1,78 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+h2 {
+    color:rgba(255,255,255,.8);
+    margin-left:12px;
+}
+
+form {
+    position:relative;
+    margin: 50px auto;
+    width: 250px;
+    height: auto;
+}
+
+input {
+    padding: 16px;
+    border-radius:7px;
+    border:0px;
+    background: rgba(255,255,255,.2);
+    display: block;
+    margin: 15px;
+    width: 180px;
+    color:white;
+    font-size:18px;
+    height: 54px;
+}
+
+button {
+    float:right;
+    height: 121px;
+    width: 50px;
+    border: 0px;
+    background: #e74c3c;
+    border-radius:7px;
+    padding: 10px;
+    color:white;
+    font-size:22px;
+}
+
+.inputUserIcon {
+    position:absolute;
+    top:68px;
+    right: 80px;
+    color:white;
+}
+
+.inputPassIcon {
+    position:absolute;
+    top:136px;
+    right: 80px;
+    color:white;
+}
+
+
+@font-face {
+    font-family: KaushanScript;
+    src: url(KaushanScript.otf);
+}
+h1{
+    font-family:'KaushanScript';
+    font-size: xx-large;
+    font-weight: bold;
+}
+body{
+    background-image: url("images/background.jpg");
+}
 .back-button {
     top: 10px;
     position: absolute;
