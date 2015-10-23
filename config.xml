@@ -17,6 +17,7 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <platform name="android">
+        <icon src="www\topcoat\img\checkbox_checked_dark.png"></icon>
         <allow-intent href="market:*" />
     </platform>
     <platform name="ios">
