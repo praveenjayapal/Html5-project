@@ -12,6 +12,7 @@ config(['$routeProvider', function ($routeProvider) {
     $routeProvider.when('/employees/:employeeId', {templateUrl: 'partials/employee-detail.html', controller: 'EmployeeDetailCtrl'});
     $routeProvider.when('/employees/:employeeId/reports', {templateUrl: 'partials/report-list.html', controller: 'ReportListCtrl'});
     $routeProvider.when('/login', {templateUrl: 'partials/loginScreen.html', controller: 'LoginCtrl'});
+    $routeProvider.when('/directions', {templateUrl: 'partials/directionsView.html', controller: 'DirectionCtrl'});
     $routeProvider.when('/home', {templateUrl: 'partials/homeScreen.html', controller: 'EmployeeListCtrl'});
     $routeProvider.otherwise({redirectTo: '/login'});
 }]);

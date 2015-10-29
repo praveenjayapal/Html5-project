@@ -33,4 +33,10 @@ angular.module('myApp.controllers', [])
     .controller('HomeCtrl', ['$scope', function ($scope) {
         $scope.employees = "Hello";
     }])
+    .controller('DirectionCtrl', ['$scope', '$routeParams', 'Employee', function ($scope, $routeParams, Employee) {
+        $scope.employees = "Hello";
+    }])
+    .controller('DirectionCtrl1', ['$scope', function ($scope) {
+        $scope.employees = "Hello";
+    }])
 ;

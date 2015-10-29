@@ -9,7 +9,10 @@
     </div>
 </div>
 
-<div class="topcoat-list__container scroller" style="top:138px;">
+<h1 align="center">Food Rescue</h1>
+
+<div class="topcoat-list__container scroller" style="top:208px;">
+    <h3 class="topcoat-list__header" style="color: white">Available Jobs</h3>
     <ul class="topcoat-list list">
         <li ng-repeat="employee in employees | filter:query | orderBy:orderProp" class="topcoat-list__item">
             <a ng-click="go('/employees/' + employee.id)">
